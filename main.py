@@ -127,7 +127,7 @@ elif app_mode == "Disease Recognition":
     test_image = st.file_uploader("Choose an Image:")
     
     if test_image:
-        st.image(test_image, use_container_width=True)
+        st.image(test_image, use_column_width=True)
     
         # Predict button
         if st.button("Predict"):
